@@ -37,7 +37,7 @@ class CreateNasabahTable extends Migration
             $table->string('KOTA', 20);
             $table->decimal('AKUM_JASA_PINJ', 15, 2);
             $table->decimal('INDEX_SHU_PINJ', 15, 2);
-            $table->decimal('SHU_PINJ, 15, 2');
+            $table->decimal('SHU_PINJ', 15, 2);
             $table->decimal('AKUM_SIMP', 15, 2);
             $table->decimal('INDEX_SHU_SIMP', 15, 2);
             $table->decimal('SHU_SIMP', 15, 2);

@@ -12,5 +12,8 @@ use Illuminate\Http\Request;
     return $request->user();
 }); */
 
-Route::get('/8357_C0S12V_ARJ', 'NasabahController@get');
-Route::post('/8357_C012V_ARJ/{prefix}', 'NasabahController@store');
+
+
+    Route::get('/8357_C0S12V_ARJ/NAS', 'NasabahController@get');
+    Route::post('/8357_C012V_ARJ/NAS', 'NasabahController@store');
+   
